@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2.css">
+    <title>HTML|Form</title>
+</head>
+<body>
+    <form action="back.php">
+        <fieldset class="body">
+            <legend class="pf">Professional elective</legend>
+            <div>
+                <label for="name">Name : </label>
+                <input class="name" type="text" id="name">
+            </div>
+            <br>
+            <div>
+                <span>Email:</span> <input class="email" type="email">
+            </div>
+            <br>
+            <div>
+            <label for="Beanch">Choose your branch:</label>
+
+<select class="branch" name="Branch">
+  <option value="IT">Artificial Intelligence</option>
+  <option value="CP">Computer Engineering</option>
+  <option value="CSD">Information Technology</option>
+  <option value="AI&DS">Computer Science & Design</option>
+</select>
+</div>
+          <br>
+            <div>
+                <label for="start">Date:</label>
+                <input class="date" type="date" value="2020-08-12" min="2018-01-01" max="20120-12-31">
+            </div>
+            
+            <div>
+            <label for="avatar">Upload Certificate</label>
+
+            <input class="file"type="file" accept="image/png, image/jpeg">
+            </div>
+            <br>
+            <input type="submit" class="submit" value="submit">
+            <input type="reset" class="reset" value="Reset">
+    </fieldset>
+    </form>
+</body>
+</html>
