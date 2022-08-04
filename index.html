@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css.css">
+    <title>HTML|Form</title>
+</head>
+<body>
+    <form action="back.php">
+        <fieldset class="body">
+            <legend class="pf">Professional elective</legend>
+            <div>
+                <label for="fname">First Name : </label>
+                <input class="fname" type="text" id="fname">
+            </div>
+            <br>
+            <div>
+                <label for="lname">Last Name : </label>
+                <input class="lname" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="en">Enrollment no: </label>
+                <input class="en" type="text">
+            </div>
+            <br>
+            <div class="radio">
+                <label for="gender">Gender : </label>
+                Male <input type="radio" name="gender" >
+                Female <input type="radio" name="gender" >
+            </div>
+            <br>
+            <div>
+                Email:<input class="email" type="email" name="email" id="email">
+            </div>
+            <br>
+            <div class="radio">
+                <label for="course">Choose course </label>
+                <br>
+                <input class="r1" type="radio" name="course" > <span>Cyber security</span> 
+                <br>
+                <input class="r2" type="radio" name="course">  <span>Advance java </span> 
+                <br>
+                <input type="radio" class="r3" name="course" > <span> AI </span>
+                <br>
+                <input class="r4" type="radio" name="course" ><span>.NET Technology</span> 
+                <br>
+            </div>
+          
+            <div>
+                <br>
+                <span>Starting date</span>
+                <input type="date" name="" id="">
+            </div>
+            <div>
+                <br>
+                <label for="textarea">Any prior knowledge regarding this course? if yes then please mention here,</label>
+                <br>
+                <textarea name="" id="" cols="50" rows="4"></textarea>
+            </div>
+            <br>
+            <input type="submit" class="submit" value="submit">
+            <input type="reset" class="reset" value="Reset">
+    </fieldset>
+    </form>
+</body>
+</html>

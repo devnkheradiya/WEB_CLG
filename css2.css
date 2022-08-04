@@ -1,0 +1,47 @@
+
+.name
+{
+    margin-top: 1rem;
+    margin-left: 6.2rem;
+}
+.email
+{
+    margin-top: 1rem;
+    margin-left: 6.2rem;
+}
+.date
+{
+    margin-top: 1rem;
+    margin-left: 6.7rem;
+}
+
+.submit
+{
+   margin-top: 1rem;
+   border-color: aliceblue;
+}
+.branch
+{
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+
+.reset
+{
+    border-color: aliceblue;
+   
+   
+}
+.file
+{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+.body
+{
+   background-color: whitesmoke;
+}
+.pf{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   font-size: 2rem;
+}

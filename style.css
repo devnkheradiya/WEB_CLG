@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.tab1 {
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-family: 'Roboto', sans-serif;
+    
+   
+}
+.bg
+{
+    text-align: center;
+    background-color: white;
+
+}
+.tab1 th{
+    color: #0078AA;
+    border: 1px solid #ddd;
+   
+    
+}
+.tab1 td{
+    border: 1px solid #ddd;
+   
+}
+
+
+
+.tab2 {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #ddd;
+  }
+
+.tab2 td {
+    border: 1px solid #ddd;
+    padding: 7px;
+  }
+
+.tab2 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: white;
+    color: #0B87BA;
+  }
+
+.tab3{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+   text-align: center;
+}
+.tab3 td{
+    border: 1px solid #ddd;
+}
+.bold {
+    color: #0B87BA;
+  }
+
+  .congo {
+    text-align: center;
+    color: green;
+  }
+
+  .lastdec {
+    text-align: center;
+    color: blue;
+  }

@@ -1,0 +1,58 @@
+.lname
+{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.fname
+{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.en
+{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.radio
+{
+    margin-top: 1rem;
+}
+.submit
+{
+   margin-top: 1rem;
+   border-color: aliceblue;
+}
+.email
+{
+    margin-left: 4.5rem;
+}
+.reset
+{
+    border-color: aliceblue;
+   
+   
+}
+.r1
+{
+    margin-left: 0rem;
+}
+.r2
+{
+    margin-left: 0rem;
+}
+.r3
+{
+    margin-left: 0rem;
+}
+.r4
+{
+    margin-left: 0rem;
+}
+.body
+{
+   background-color: whitesmoke;
+}
+.pf{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   font-size: 2rem;
+}
